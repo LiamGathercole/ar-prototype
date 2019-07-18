@@ -24,7 +24,7 @@
         <a-asset-item id="cityModel" src="./animation/scene.gltf"></a-asset-item>
       </a-assets>
       <!--TO ANIMATE-->
-      <a-gltf-model src="#cityModel" shadow="cast: true" animation-mixer></a-gltf-model>
+      <a-gltf-model src="#cityModel" shadow="cast: true; receive: false" animation-mixer></a-gltf-model>
       <!--Lighting -->
       <a-entity light="type:directional; castShadow:true;" position="1 1 -1"></a-entity>
     </a-scene>

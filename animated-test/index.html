@@ -14,7 +14,9 @@
 
   <body>
     <a-scene arjs="debugUIEnabled: false;" embedded arjs>
-      <a-marker-camera preset='hiro'></a-marker-camera>
+      <!-- Custom JUUL Marker -->
+      <a-marker-camera type='pattern' url='./marker/pattern-Juul_Marker.patt'></a-marker-camera>
+      <!--<a-marker-camera preset='hiro'></a-marker-camera>-->
       <a-assets>
         <a-asset-item id="cityModel" src="./animation/scene.gltf"></a-asset-item>
       </a-assets>

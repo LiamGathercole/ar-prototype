@@ -14,7 +14,6 @@
 
       <!-- update -->
       <!-- update -->
-      <!-- update -->
 
   <body>
     <a-scene arjs="debugUIEnabled: false;" embedded arjs>
@@ -25,9 +24,9 @@
         <a-asset-item id="cityModel" src="./animation/scene.gltf"></a-asset-item>
       </a-assets>
       <!--TO ANIMATE-->
-      <a-gltf-model src="#cityModel" shadow="cast: true; receive: false" animation-mixer></a-gltf-model>
+      <a-gltf-model src="#cityModel" shadow="cast: true" animation-mixer></a-gltf-model>
       <!--Lighting -->
-      <a-entity light="type:directional; castShadow:true;" position="1 1 -1"></a-entity>
+      <a-entity light="type:directional; castShadow:true; intensity: 2.5" position="1 1 -1"></a-entity>
     </a-scene>
   </body>
 </html>

@@ -11,7 +11,7 @@
     <!-- Animation Mixer -->
     <script src="https://unpkg.com/aframe-extras.animation-mixer@3.4.0/dist/aframe-extras.animation-mixer.js"></script>
   </head>
-  
+
   <body>
     <a-scene embedded arjs>
       <a-marker-camera preset='hiro'></a-marker-camera>
@@ -19,6 +19,7 @@
         <a-asset-item id="cityModel" src="./animation/scene.gltf"></a-asset-item>
       </a-assets>
       <!--TO ANIMATE-->
+      <!--Update-->
       <a-gltf-model src="#cityModel" animation-mixer></a-gltf-model>
     </a-scene>
   </body>

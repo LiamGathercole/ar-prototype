@@ -1,29 +1,19 @@
 <!doctype html>
 
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>JUUL AR Prototype</title>
-  <!--<link rel="stylesheet" href="css/styles.css?v=1.0">-->
-
-  <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
-  <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.6.0/aframe/build/aframe-ar.js"></script>
-</head>
-
-<body style='margin : 0px; overflow: hidden;'>
-  <!--<script src="js/scripts.js"></script>-->
-  	<a-scene embedded arjs='sourceType: webcam;'>
-      <!--<a-text value="Liam loves AR"></a-text>-->
-		
-		<a-assets>
-	    	<a-asset-item id="box" src="box-animated/BoxAnimated.glb"></a-asset-item>
-		</a-assets>
-
-		<a-marker preset="hiro">
-			<a-entity gltf-model="#box" scale="0.30 0.30 0.30"></a-entity>
-		</a-marker>
-		<!--<a-box position='0 0.5 0' material='opacity: 0.5;'></a-box>-->
-		<a-entity camera></a-entity>
-	</a-scene>
-</body>
+<html>
+  <head>
+    <title>glTF Model - A-Frame School</title>
+    <meta name="description" content="glTF Model - A-Frame School">
+    <script src="https://rawgit.com/aframevr/aframe/b395ea0/dist/aframe-master.min.js"></script>
+    <script src="https://unpkg.com/aframe-extras.animation-mixer@3.4.0/dist/aframe-extras.animation-mixer.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-assets>
+        <a-asset-item id="cityModel" src="https://cdn.aframe.io/test-models/models/virtualcity/VC.gltf"></a-asset-item>
+      </a-assets>
+      
+      <a-gltf-model src="#cityModel" animation-mixer></a-gltf-model>
+    </a-scene>
+  </body>
 </html>

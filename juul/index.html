@@ -24,6 +24,7 @@
     <!-- Fix renderer clipping issues on android, Hide A-Frame default debug UI elements, and VR goggle option -->
     <a-scene renderer="antialias: true; logarithmicDepthBuffer: true; colorManagement: true; sortObjects: true;" arjs="debugUIEnabled: false;" vr-mode-ui="enabled: false" embedded arjs>
       <a-assets>
+        <a-entity cloak></a-entity> 
         <a-asset-item id="juulModel" src="./animation/scene.gltf"></a-asset-item>
       </a-assets>
       <!--TO ANIMATE-->
@@ -38,7 +39,6 @@
         </a-entity>-->
       <!-- Custom JUUL Marker -->
       <a-marker type='pattern' url='./marker/pattern-Juul_Marker.patt'>
-        <a-entity cloak></a-entity> 
         <a-box position='0 -0.1 0' material='src:https://i.imgur.com/wjobVTN.jpg'  width="1" height="0.1" depth='1'
                    animation="property: position; to: 0 0.2 0; dur: 1500; easing: linear; loop: true; dir: alternate"></a-box>
       </a-marker>

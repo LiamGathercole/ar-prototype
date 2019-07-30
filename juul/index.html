@@ -10,12 +10,10 @@
     <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
     <!-- Animation Mixer -->
     <script src="https://unpkg.com/aframe-extras.animation-mixer@3.4.0/dist/aframe-extras.animation-mixer.js"></script>
-    <!-- Custom JS here -->
+    <!-- Custom script -->
     <script src="/script.js"></script>
   </head>
 
-      <!-- update -->
-      <!-- update -->
       <!-- update -->
       <!-- update -->
 
@@ -23,13 +21,12 @@
     <!-- Hide A-Frame default debug UI elements, and VR goggle option -->
     <a-scene arjs="debugUIEnabled: false;" vr-mode-ui="enabled: false" embedded arjs>
       <!-- Custom JUUL Marker -->
-      <a-marker-camera type='pattern' url='./marker/pattern-Juul_Marker.patt'>
-      </a-marker-camera>
+      <a-marker-camera type='pattern' url='./marker/pattern-Juul_Marker.patt'></a-marker-camera>
       <!--<a-marker-camera preset='hiro'></a-marker-camera>-->
-        <a-assets>
-          <a-entity cloak></a-entity>
-          <a-asset-item id="juulModel" src="./animation/scene.gltf"></a-asset-item>
-        </a-assets>
+      <a-assets>
+        <a-entity cloak></a-entity> 
+        <a-asset-item id="juulModel" src="./animation/scene.gltf"></a-asset-item>
+      </a-assets>
       <!--TO ANIMATE-->
       <a-gltf-model src="#juulModel" shadow="cast: false" scale="0.005 0.005 0.005" animation-mixer></a-gltf-model>
       <!--Lighting -->

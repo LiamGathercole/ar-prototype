@@ -40,11 +40,12 @@
             position="-5 3 1.5">
         </a-entity>-->
       <!-- Custom JUUL Marker -->
-      <a-marker-camera type='pattern' url='./marker/pattern-Juul_Marker.patt'>
+      <a-marker type='pattern' url='./marker/pattern-Juul_Marker.patt'>
         <a-entity cloak></a-entity> 
         <a-box position='0 -0.1 0' material='src:https://i.imgur.com/wjobVTN.jpg'  width="1" height="0.1" depth='1'
                    animation="property: position; to: 0 0.2 0; dur: 1500; easing: linear; loop: true; dir: alternate"></a-box>
-      </a-marker-camera>
+      </a-marker>
+      <a-entity camera></a-entity> 
     </a-scene>
   </body>
 </html>

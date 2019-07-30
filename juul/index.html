@@ -26,12 +26,11 @@
       <!-- Custom JUUL Marker -->
       <a-marker-camera type='pattern' url='./marker/pattern-Juul_Marker.patt'>
         <a-entity cloak></a-entity>
+      </a-marker-camera>
+      <!--<a-marker-camera preset='hiro'></a-marker-camera>-->
         <a-assets>
           <a-asset-item id="juulModel" src="./animation/scene.gltf"></a-asset-item>
         </a-assets>
-      </a-marker-camera>
-      <!--<a-marker-camera preset='hiro'></a-marker-camera>-->
-
       <!--TO ANIMATE-->
       <a-gltf-model src="#juulModel" shadow="cast: false" scale="0.005 0.005 0.005" animation-mixer></a-gltf-model>
       <!--Lighting -->

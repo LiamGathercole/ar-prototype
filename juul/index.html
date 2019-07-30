@@ -26,11 +26,11 @@
 
       <a-marker type='pattern' url='./marker/pattern-Juul_Marker.patt'>
           <a-assets>
+            <a-entity cloak></a-entity> 
             <a-asset-item id="juulModel" src="./animation/scene.gltf"></a-asset-item>
           </a-assets>
 
           <!--TO ANIMATE-->
-          <a-entity cloak></a-entity> 
           <a-gltf-model src="#juulModel" shadow="cast: false" scale="0.005 0.005 0.005" animation-mixer></a-gltf-model>
 
       </a-marker>

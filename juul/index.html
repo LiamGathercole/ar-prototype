@@ -26,9 +26,11 @@
     <a-scene renderer="antialias: true; logarithmicDepthBuffer: true; colorManagement: true; sortObjects: true;" arjs="debugUIEnabled: false;" vr-mode-ui="enabled: false" embedded arjs>
       <a-assets>
         <a-asset-item id="juulModel" src="./animation/scene.gltf"></a-asset-item>
+        <a-asset-item id="podsModel" src="./animation/pods/scene.gltf"></a-asset-item>
       </a-assets>
       <!--TO ANIMATE-->
-      <a-gltf-model src="#juulModel" shadow="cast: false" scale="0.005 0.005 0.005" animation-mixer></a-gltf-model>
+    	<a-gltf-model src="#juulModel" shadow="cast: false" scale="0.005 0.005 0.005" animation-mixer></a-gltf-model>
+		<a-gltf-model src="#podsModel" shadow="cast: true" scale="0.005 0.005 0.005" animation-mixer></a-gltf-model>
       <!--Lighting -->
         <!--<a-entity light="type: ambient; intensity: 0.5;"></a-entity>-->
         <!--<a-entity light="type: directional;

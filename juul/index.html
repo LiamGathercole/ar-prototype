@@ -26,6 +26,7 @@
       <a-assets>
         <a-asset-item id="juulModel" src="./animation/scene.gltf"></a-asset-item>
         <a-asset-item id="podsModel" src="./animation/pods/scene.gltf"></a-asset-item>
+        <video id="video" autoplay loop="true" src="./animation/video/video_smaller.mp4">
       </a-assets>
       <!--Lighting -->
         <!--<a-entity light="type: ambient; intensity: 0.5;"></a-entity>-->
@@ -38,6 +39,9 @@
       <!-- Custom JUUL Marker -->
       <a-camera>
 	      <a-marker type='pattern' url='./marker/pattern-Juul_Marker.patt'>
+            <!-- Video -->
+                <a-video src="#video" width="8" height="4.5" position="0 0 -5"></a-video>
+            <!-- 3D Scene -->
 	      	        <a-entity cloak position="0 -0.8 0"></a-entity> 
 	                <!--<a-entity gltf-model="#juulModel"></a-entity>-->
 	                <a-gltf-model src="#juulModel" shadow="cast: true" scale="0.005 0.005 0.005" animation-mixer></a-gltf-model>

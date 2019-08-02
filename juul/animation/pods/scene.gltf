@@ -5539,10 +5539,10 @@
     "extras": {
       "author": "Liam.Gathercole (https://sketchfab.com/Liam.Gathercole)",
       "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
-      "source": "https://sketchfab.com/3d-models/pods-3897c38e48f74c81bc1ae91b711da71a",
+      "source": "https://sketchfab.com/3d-models/pods-398fc56ed7a445948d983978006d7b08",
       "title": "Pods"
     },
-    "generator": "Sketchfab-5.94.0",
+    "generator": "Sketchfab-5.97.0",
     "version": "2.0"
   },
   "bufferViews": [
@@ -5639,6 +5639,7 @@
       }
     },
     {
+      "alphaMode": "BLEND",
       "doubleSided": true,
       "emissiveFactor": [
         0,
@@ -5651,7 +5652,7 @@
           1,
           1,
           1,
-          1
+          0.5
         ],
         "metallicFactor": 0,
         "roughnessFactor": 0.59999999999999998
@@ -6919,7 +6920,7 @@
         0,
         1
       ],
-      "name": "0c7ea998df5546a4b8b7892d674e1ead.fbx"
+      "name": "46cbd96badce4d949fa212da37588c68.fbx"
     },
     {
       "children": [

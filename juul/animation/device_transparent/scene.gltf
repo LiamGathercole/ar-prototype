@@ -128,7 +128,7 @@
       "bufferView": 2,
       "byteOffset": 4128,
       "componentType": 5126,
-      "count": 264,
+      "count": 285,
       "max": [
         73.668159484863281,
         112.07070922851562,
@@ -143,9 +143,9 @@
     },
     {
       "bufferView": 2,
-      "byteOffset": 7296,
+      "byteOffset": 7548,
       "componentType": 5126,
-      "count": 264,
+      "count": 285,
       "max": [
         1,
         1,
@@ -159,12 +159,46 @@
       "type": "VEC3"
     },
     {
+      "bufferView": 3,
+      "byteOffset": 2368,
+      "componentType": 5126,
+      "count": 285,
+      "max": [
+        1,
+        0.90311545133590698,
+        0.99999171495437622,
+        1
+      ],
+      "min": [
+        -1,
+        -0.91450220346450806,
+        -0.99999839067459106,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 1184,
+      "componentType": 5126,
+      "count": 285,
+      "max": [
+        1.4636131525039673,
+        0.81357145309448242
+      ],
+      "min": [
+        0.03578370064496994,
+        0.077664613723754883
+      ],
+      "type": "VEC2"
+    },
+    {
       "bufferView": 0,
       "byteOffset": 2256,
       "componentType": 5125,
       "count": 732,
       "max": [
-        263
+        284
       ],
       "min": [
         0
@@ -328,11 +362,6 @@
       "name": "CINEMA_4D_Main",
       "samplers": [
         {
-          "input": 11,
-          "interpolation": "LINEAR",
-          "output": 12
-        },
-        {
           "input": 13,
           "interpolation": "LINEAR",
           "output": 14
@@ -346,6 +375,11 @@
           "input": 17,
           "interpolation": "LINEAR",
           "output": 18
+        },
+        {
+          "input": 19,
+          "interpolation": "LINEAR",
+          "output": 20
         }
       ]
     }
@@ -354,8 +388,8 @@
     "extras": {
       "author": "Liam.Gathercole (https://sketchfab.com/Liam.Gathercole)",
       "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
-      "source": "https://sketchfab.com/3d-models/device-transparent-bb340ffa126448fda9f68244ce17b3e5",
-      "title": "Device Transparent"
+      "source": "https://sketchfab.com/3d-models/device-transparent-material-d3e85887323a4eeab54b2f57f66c09fc",
+      "title": "Device Transparent Material"
     },
     "generator": "Sketchfab-5.97.0",
     "version": "2.0"
@@ -370,7 +404,7 @@
     },
     {
       "buffer": 0,
-      "byteLength": 1184,
+      "byteLength": 3464,
       "byteOffset": 5184,
       "byteStride": 8,
       "name": "floatBufferViews",
@@ -378,16 +412,16 @@
     },
     {
       "buffer": 0,
-      "byteLength": 10464,
-      "byteOffset": 6368,
+      "byteLength": 10968,
+      "byteOffset": 8648,
       "byteStride": 12,
       "name": "floatBufferViews",
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 2368,
-      "byteOffset": 16832,
+      "byteLength": 6928,
+      "byteOffset": 19616,
       "byteStride": 16,
       "name": "floatBufferViews",
       "target": 34962
@@ -395,40 +429,46 @@
     {
       "buffer": 0,
       "byteLength": 4140,
-      "byteOffset": 19200,
+      "byteOffset": 26544,
       "name": "floatBufferViews"
     },
     {
       "buffer": 0,
       "byteLength": 5088,
-      "byteOffset": 23340,
+      "byteOffset": 30684,
       "byteStride": 12,
       "name": "floatBufferViews"
     },
     {
       "buffer": 0,
       "byteLength": 9776,
-      "byteOffset": 28428,
+      "byteOffset": 35772,
       "byteStride": 16,
       "name": "floatBufferViews"
     }
   ],
   "buffers": [
     {
-      "byteLength": 38204,
+      "byteLength": 45548,
       "uri": "scene.bin"
     }
   ],
   "materials": [
     {
+      "alphaMode": "BLEND",
       "doubleSided": true,
-      "name": "Scene_-_Root",
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "transparent",
       "pbrMetallicRoughness": {
         "baseColorFactor": [
           1,
           1,
           1,
-          1
+          0.12976371951219512
         ],
         "metallicFactor": 0,
         "roughnessFactor": 0.59999999999999998
@@ -437,7 +477,7 @@
   ],
   "meshes": [
     {
-      "name": "Cylinder__0",
+      "name": "Cylinder_transparent_0",
       "primitives": [
         {
           "attributes": {
@@ -453,7 +493,7 @@
       ]
     },
     {
-      "name": "Cube_2__0",
+      "name": "Cube_2_transparent_0",
       "primitives": [
         {
           "attributes": {
@@ -467,14 +507,16 @@
       ]
     },
     {
-      "name": "Cube_1_2__0",
+      "name": "Cube_1_2_transparent_0",
       "primitives": [
         {
           "attributes": {
             "NORMAL": 9,
-            "POSITION": 8
+            "POSITION": 8,
+            "TANGENT": 10,
+            "TEXCOORD_0": 11
           },
-          "indices": 10,
+          "indices": 12,
           "material": 0,
           "mode": 4
         }
@@ -497,6 +539,24 @@
     {
       "children": [
         2
+      ],
+      "matrix": [
+        0.99999958276748657,
+        -9.6567494552489825e-20,
+        -0.00089971080888062716,
+        0,
+        -4.1476099302547512e-20,
+        1,
+        -1.5343105837472133e-16,
+        0,
+        0.00089971080888062716,
+        1.5343103190494173e-16,
+        0.99999958276748657,
+        0,
+        0.04426923394203186,
+        8.4376949871511897e-15,
+        -37.605693817138672,
+        1
       ],
       "name": "RootNode (model correction matrix)"
     },
@@ -522,7 +582,7 @@
         0,
         1
       ],
-      "name": "21fff9fcf5a741ceba5106ce3bddcde7.fbx"
+      "name": "a45927783832495ca9b5ced1000f13b4.fbx"
     },
     {
       "children": [
@@ -606,7 +666,7 @@
     },
     {
       "mesh": 0,
-      "name": "Cylinder__0"
+      "name": "Cylinder_transparent_0"
     },
     {
       "children": [
@@ -627,7 +687,7 @@
     },
     {
       "mesh": 1,
-      "name": "Cube_2__0"
+      "name": "Cube_2_transparent_0"
     },
     {
       "children": [
@@ -648,7 +708,7 @@
     },
     {
       "mesh": 2,
-      "name": "Cube_1_2__0"
+      "name": "Cube_1_2_transparent_0"
     }
   ],
   "scene": 0,

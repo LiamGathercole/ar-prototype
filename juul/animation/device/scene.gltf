@@ -1948,7 +1948,7 @@
       "source": "https://sketchfab.com/3d-models/device-all-models-313a92b4fd2348ceb61a14362d8cd709",
       "title": "Device All Models"
     },
-    "generator": "Sketchfab-5.97.0",
+    "generator": "Sketchfab-5.97.1",
     "version": "2.0"
   },
   "bufferViews": [
@@ -2016,13 +2016,51 @@
       "name": "Cube_3__0",
       "pbrMetallicRoughness": {
         "baseColorFactor": [
-          1,
-          1,
-          1,
+          0.33708079270000002,
+          0.33708079270000002,
+          0.33708079270000002,
           1
         ],
         "metallicFactor": 0,
         "roughnessFactor": 0.59999999999999998
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "Gold",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          0.53946047169472122,
+          0.014993039419691771,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.59999999999999998
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "Body",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.087016006098000004,
+          0.087016006098000004,
+          0.087016006098000004,
+          1
+        ],
+        "metallicFactor": 0.39805640240000001,
+        "roughnessFactor": 0.35194359760000005
       }
     },
     {
@@ -2042,7 +2080,7 @@
           0.5
         ],
         "metallicFactor": 0,
-        "roughnessFactor": 0.95243171539989113
+        "roughnessFactor": 0.95243171540000005
       }
     },
     {
@@ -2055,51 +2093,13 @@
       "name": "Black",
       "pbrMetallicRoughness": {
         "baseColorFactor": [
-          0.070000000000000007,
-          0.070000000000000007,
-          0.070000000000000007,
+          0.014205411584000002,
+          0.014205411584000002,
+          0.014205411584000002,
           1
         ],
         "metallicFactor": 0,
-        "roughnessFactor": 0.95243171539989113
-      }
-    },
-    {
-      "doubleSided": true,
-      "emissiveFactor": [
-        0,
-        0,
-        0
-      ],
-      "name": "Body",
-      "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          0.17999999999999999,
-          0.17999999999999999,
-          0.17999999999999999,
-          1
-        ],
-        "metallicFactor": 0,
-        "roughnessFactor": 0.95243171539989113
-      }
-    },
-    {
-      "doubleSided": true,
-      "emissiveFactor": [
-        0,
-        0,
-        0
-      ],
-      "name": "Gold",
-      "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          0.80000000000000004,
-          0.62933300000000003,
-          0.28799999999999998,
-          1
-        ],
-        "metallicFactor": 0,
-        "roughnessFactor": 0.59999999999999998
+        "roughnessFactor": 0.95243171540000005
       }
     },
     {
@@ -2124,7 +2124,7 @@
   ],
   "meshes": [
     {
-      "name": "Cube_2_Glass_0",
+      "name": "Cube_2_Gold_0",
       "primitives": [
         {
           "attributes": {
@@ -2140,7 +2140,7 @@
       ]
     },
     {
-      "name": "Cylinder_Glass_0",
+      "name": "Cylinder_Body_0",
       "primitives": [
         {
           "attributes": {
@@ -2150,7 +2150,7 @@
             "TEXCOORD_0": 8
           },
           "indices": 9,
-          "material": 1,
+          "material": 2,
           "mode": 4
         }
       ]
@@ -2164,7 +2164,7 @@
             "POSITION": 10
           },
           "indices": 12,
-          "material": 1,
+          "material": 3,
           "mode": 4
         }
       ]
@@ -2178,7 +2178,7 @@
             "POSITION": 13
           },
           "indices": 15,
-          "material": 1,
+          "material": 3,
           "mode": 4
         }
       ]
@@ -2256,7 +2256,7 @@
             "POSITION": 36
           },
           "indices": 38,
-          "material": 2,
+          "material": 4,
           "mode": 4
         }
       ]
@@ -2272,7 +2272,7 @@
             "TEXCOORD_0": 42
           },
           "indices": 43,
-          "material": 2,
+          "material": 4,
           "mode": 4
         }
       ]
@@ -2288,7 +2288,7 @@
             "TEXCOORD_0": 47
           },
           "indices": 48,
-          "material": 2,
+          "material": 4,
           "mode": 4
         }
       ]
@@ -2302,7 +2302,7 @@
             "POSITION": 49
           },
           "indices": 51,
-          "material": 3,
+          "material": 2,
           "mode": 4
         }
       ]
@@ -2334,7 +2334,7 @@
             "TEXCOORD_0": 60
           },
           "indices": 61,
-          "material": 4,
+          "material": 1,
           "mode": 4
         }
       ]
@@ -2350,7 +2350,7 @@
             "TEXCOORD_0": 65
           },
           "indices": 66,
-          "material": 4,
+          "material": 1,
           "mode": 4
         }
       ]
@@ -2366,7 +2366,7 @@
             "TEXCOORD_0": 70
           },
           "indices": 71,
-          "material": 4,
+          "material": 1,
           "mode": 4
         }
       ]
@@ -2382,7 +2382,7 @@
             "TEXCOORD_0": 75
           },
           "indices": 76,
-          "material": 4,
+          "material": 1,
           "mode": 4
         }
       ]
@@ -2561,7 +2561,7 @@
         0,
         1
       ],
-      "name": "875500fef74243ceaa14aa53efabf147.fbx"
+      "name": "349ac9482860476bbc3e530b7291402c.fbx"
     },
     {
       "children": [
@@ -2648,7 +2648,7 @@
     },
     {
       "mesh": 0,
-      "name": "Cube_2_Glass_0"
+      "name": "Cube_2_Gold_0"
     },
     {
       "children": [
@@ -2663,7 +2663,7 @@
     },
     {
       "mesh": 1,
-      "name": "Cylinder_Glass_0"
+      "name": "Cylinder_Body_0"
     },
     {
       "children": [

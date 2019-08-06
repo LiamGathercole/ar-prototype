@@ -6306,7 +6306,7 @@
       "source": "https://sketchfab.com/3d-models/pods-398fc56ed7a445948d983978006d7b08",
       "title": "Pods"
     },
-    "generator": "Sketchfab-5.97.1",
+    "generator": "Sketchfab-5.98.0",
     "version": "2.0"
   },
   "bufferViews": [
@@ -6368,20 +6368,32 @@
       "uri": "scene.bin"
     }
   ],
+  "extensionsRequired": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "extensionsUsed": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
   "materials": [
     {
       "doubleSided": true,
-      "name": "Cube_4__0",
-      "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          1,
-          1,
-          1,
-          1
-        ],
-        "metallicFactor": 0,
-        "roughnessFactor": 0.59999999999999998
-      }
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "glossinessFactor": 0.40000000000000002,
+          "specularFactor": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "name": "Cube_4__0"
     },
     {
       "doubleSided": true,
@@ -6390,17 +6402,23 @@
         0,
         0
       ],
-      "name": "Tobacco",
-      "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          0.56470599999999982,
-          0.28627500000000017,
-          0.050980400000000023,
-          1
-        ],
-        "metallicFactor": 0.10000000000000001,
-        "roughnessFactor": 0.047568284600000003
-      }
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            0.56470599999999982,
+            0.28627500000000017,
+            0.050980400000000023,
+            1
+          ],
+          "glossinessFactor": 0.95243171540000005,
+          "specularFactor": [
+            0.10000000000000001,
+            0.10000000000000001,
+            0.10000000000000001
+          ]
+        }
+      },
+      "name": "Tobacco"
     },
     {
       "doubleSided": true,
@@ -6409,17 +6427,23 @@
         0,
         0
       ],
-      "name": "Gold",
-      "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          0.80000000000000004,
-          0.50666699999999998,
-          0,
-          1
-        ],
-        "metallicFactor": 0,
-        "roughnessFactor": 0.95243171539989113
-      }
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            0.80000000000000004,
+            0.50666699999999998,
+            0,
+            1
+          ],
+          "glossinessFactor": 0.04756828460010884,
+          "specularFactor": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "name": "Gold"
     },
     {
       "doubleSided": true,
@@ -6428,17 +6452,23 @@
         0,
         0
       ],
-      "name": "Black",
-      "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          0.014210000000000002,
-          0.014210000000000002,
-          0.014210000000000002,
-          1
-        ],
-        "metallicFactor": 0,
-        "roughnessFactor": 0.95243171540000005
-      }
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            0.014210000000000002,
+            0.014210000000000002,
+            0.014210000000000002,
+            1
+          ],
+          "glossinessFactor": 0.047568284600000003,
+          "specularFactor": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "name": "Black"
     },
     {
       "alphaMode": "BLEND",
@@ -6448,17 +6478,23 @@
         0,
         0
       ],
-      "name": "Glass",
-      "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          1,
-          1,
-          1,
-          0.5
-        ],
-        "metallicFactor": 0,
-        "roughnessFactor": 0.59999999999999998
-      }
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            1,
+            1,
+            1,
+            0.5
+          ],
+          "glossinessFactor": 0.40000000000000002,
+          "specularFactor": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "name": "Glass"
     },
     {
       "doubleSided": true,
@@ -6467,17 +6503,23 @@
         0,
         0
       ],
-      "name": "Apple",
-      "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          0.16862699999999992,
-          1,
-          0,
-          1
-        ],
-        "metallicFactor": 0.10000000000000001,
-        "roughnessFactor": 0.048000000000000001
-      }
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            0.16862699999999992,
+            1,
+            0,
+            1
+          ],
+          "glossinessFactor": 0.95199999999999996,
+          "specularFactor": [
+            0.10000000000000001,
+            0.10000000000000001,
+            0.10000000000000001
+          ]
+        }
+      },
+      "name": "Apple"
     },
     {
       "doubleSided": true,
@@ -6486,17 +6528,23 @@
         0,
         0
       ],
-      "name": "Mango",
-      "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          1,
-          0.40000000000000002,
-          0,
-          1
-        ],
-        "metallicFactor": 0.10000000000000001,
-        "roughnessFactor": 0.048000000000000001
-      }
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            1,
+            0.40000000000000002,
+            0,
+            1
+          ],
+          "glossinessFactor": 0.95199999999999996,
+          "specularFactor": [
+            0.10000000000000001,
+            0.10000000000000001,
+            0.10000000000000001
+          ]
+        }
+      },
+      "name": "Mango"
     },
     {
       "doubleSided": true,
@@ -6505,17 +6553,23 @@
         0,
         0
       ],
-      "name": "Mint",
-      "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          0,
-          0.74902000000000002,
-          0.45882400000000001,
-          1
-        ],
-        "metallicFactor": 0.10000000000000001,
-        "roughnessFactor": 0.047568284600000003
-      }
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            0,
+            0.74902000000000002,
+            0.45882400000000001,
+            1
+          ],
+          "glossinessFactor": 0.047568284600000003,
+          "specularFactor": [
+            0.10000000000000001,
+            0.10000000000000001,
+            0.10000000000000001
+          ]
+        }
+      },
+      "name": "Mint"
     },
     {
       "doubleSided": true,
@@ -6524,17 +6578,23 @@
         0,
         0
       ],
-      "name": "Berry",
-      "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          0.92156899999999997,
-          0,
-          0,
-          1
-        ],
-        "metallicFactor": 0.10000000000000001,
-        "roughnessFactor": 0.047568284600000003
-      }
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            0.92156899999999997,
+            0,
+            0,
+            1
+          ],
+          "glossinessFactor": 0.047568284600000003,
+          "specularFactor": [
+            0.10000000000000001,
+            0.10000000000000001,
+            0.10000000000000001
+          ]
+        }
+      },
+      "name": "Berry"
     },
     {
       "doubleSided": true,
@@ -6543,17 +6603,23 @@
         0,
         0
       ],
-      "name": "Creme",
-      "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          1,
-          0.92156899999999997,
-          0.70980399999999999,
-          1
-        ],
-        "metallicFactor": 0.10000000000000001,
-        "roughnessFactor": 0.047568284600000003
-      }
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            1,
+            0.92156899999999997,
+            0.70980399999999999,
+            1
+          ],
+          "glossinessFactor": 0.047568284600000003,
+          "specularFactor": [
+            0.10000000000000001,
+            0.10000000000000001,
+            0.10000000000000001
+          ]
+        }
+      },
+      "name": "Creme"
     }
   ],
   "meshes": [

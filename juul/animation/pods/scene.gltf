@@ -6368,258 +6368,147 @@
       "uri": "scene.bin"
     }
   ],
-  "extensionsRequired": [
-    "KHR_materials_pbrSpecularGlossiness"
-  ],
-  "extensionsUsed": [
-    "KHR_materials_pbrSpecularGlossiness"
-  ],
   "materials": [
     {
       "doubleSided": true,
-      "extensions": {
-        "KHR_materials_pbrSpecularGlossiness": {
-          "diffuseFactor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "glossinessFactor": 0.40000000000000002,
-          "specularFactor": [
-            0,
-            0,
-            0
-          ]
-        }
-      },
-      "name": "Cube_4__0"
+      "name": "Cube_4__0",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.59999999999999998
+      }
     },
     {
       "doubleSided": true,
-      "emissiveFactor": [
-        0,
-        0,
-        0
-      ],
-      "extensions": {
-        "KHR_materials_pbrSpecularGlossiness": {
-          "diffuseFactor": [
-            0.5647059999999996,
-            0.28627500000000017,
-            0.050980400000000044,
-            1
-          ],
-          "glossinessFactor": 0.047568284600000003,
-          "specularFactor": [
-            0.10000000000000001,
-            0.10000000000000001,
-            0.10000000000000001
-          ]
-        }
-      },
-      "name": "Tobacco"
+      "name": "Tobacco",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5647059999999996,
+          0.28627500000000017,
+          0.050980400000000023,
+          1
+        ],
+        "metallicFactor": 0.10000000000000001,
+        "roughnessFactor": 0.047568284600000003
+      }
     },
     {
       "doubleSided": true,
-      "emissiveFactor": [
-        0,
-        0,
-        0
-      ],
-      "extensions": {
-        "KHR_materials_pbrSpecularGlossiness": {
-          "diffuseFactor": [
-            0.80000000000000004,
-            0.50666699999999998,
-            0,
-            1
-          ],
-          "glossinessFactor": 0.04756828460010884,
-          "specularFactor": [
-            0,
-            0,
-            0
-          ]
-        }
-      },
-      "name": "Gold"
+      "name": "Gold",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.80000000000000004,
+          0.50666699999999998,
+          0,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.95243171539989113
+      }
     },
     {
       "doubleSided": true,
-      "emissiveFactor": [
-        0,
-        0,
-        0
-      ],
-      "extensions": {
-        "KHR_materials_pbrSpecularGlossiness": {
-          "diffuseFactor": [
-            0.014210000000000002,
-            0.014210000000000002,
-            0.014210000000000002,
-            1
-          ],
-          "glossinessFactor": 0.047568284600000003,
-          "specularFactor": [
-            0,
-            0,
-            0
-          ]
-        }
-      },
-      "name": "Black"
+      "name": "Black",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.014210000000000002,
+          0.014210000000000002,
+          0.014210000000000002,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.95243171540000005
+      }
     },
     {
       "alphaMode": "BLEND",
       "doubleSided": true,
-      "emissiveFactor": [
-        0,
-        0,
-        0
-      ],
-      "extensions": {
-        "KHR_materials_pbrSpecularGlossiness": {
-          "diffuseFactor": [
-            1,
-            1,
-            1,
-            0.5
-          ],
-          "glossinessFactor": 0.40000000000000002,
-          "specularFactor": [
-            0,
-            0,
-            0
-          ]
-        }
-      },
-      "name": "Glass"
+      "name": "Glass",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          0.5
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.59999999999999998
+      }
     },
     {
       "doubleSided": true,
-      "emissiveFactor": [
-        0,
-        0,
-        0
-      ],
-      "extensions": {
-        "KHR_materials_pbrSpecularGlossiness": {
-          "diffuseFactor": [
-            0.16862699999999992,
-            1,
-            0,
-            1
-          ],
-          "glossinessFactor": 0.048000000000000001,
-          "specularFactor": [
-            0.10000000000000001,
-            0.10000000000000001,
-            0.10000000000000001
-          ]
-        }
-      },
-      "name": "Apple"
+      "name": "Apple",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.16862699999999992,
+          1,
+          0,
+          1
+        ],
+        "metallicFactor": 0.10000000000000001,
+        "roughnessFactor": 0.048000000000000001
+      }
     },
     {
       "doubleSided": true,
-      "emissiveFactor": [
-        0,
-        0,
-        0
-      ],
-      "extensions": {
-        "KHR_materials_pbrSpecularGlossiness": {
-          "diffuseFactor": [
-            1,
-            0.40000000000000002,
-            0,
-            1
-          ],
-          "glossinessFactor": 0.048000000000000001,
-          "specularFactor": [
-            0.10000000000000001,
-            0.10000000000000001,
-            0.10000000000000001
-          ]
-        }
-      },
-      "name": "Mango"
+      "name": "Mango",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          0.40000000000000002,
+          0,
+          1
+        ],
+        "metallicFactor": 0.10000000000000001,
+        "roughnessFactor": 0.048000000000000001
+      }
     },
     {
       "doubleSided": true,
-      "emissiveFactor": [
-        0,
-        0,
-        0
-      ],
-      "extensions": {
-        "KHR_materials_pbrSpecularGlossiness": {
-          "diffuseFactor": [
-            0,
-            0.74902000000000002,
-            0.45882400000000001,
-            1
-          ],
-          "glossinessFactor": 0.047568284600000003,
-          "specularFactor": [
-            0.10000000000000001,
-            0.10000000000000001,
-            0.10000000000000001
-          ]
-        }
-      },
-      "name": "Mint"
+      "name": "Mint",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0,
+          0.74902000000000002,
+          0.45882400000000001,
+          1
+        ],
+        "metallicFactor": 0.10000000000000001,
+        "roughnessFactor": 0.047568284600000003
+      }
     },
     {
       "doubleSided": true,
-      "emissiveFactor": [
-        0,
-        0,
-        0
-      ],
-      "extensions": {
-        "KHR_materials_pbrSpecularGlossiness": {
-          "diffuseFactor": [
-            0.92156899999999997,
-            0,
-            0,
-            1
-          ],
-          "glossinessFactor": 0.047568284600000003,
-          "specularFactor": [
-            0.10000000000000001,
-            0.10000000000000001,
-            0.10000000000000001
-          ]
-        }
-      },
-      "name": "Berry"
+      "name": "Berry",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.92156899999999997,
+          0,
+          0,
+          1
+        ],
+        "metallicFactor": 0.10000000000000001,
+        "roughnessFactor": 0.047568284600000003
+      }
     },
     {
       "doubleSided": true,
-      "emissiveFactor": [
-        0,
-        0,
-        0
-      ],
-      "extensions": {
-        "KHR_materials_pbrSpecularGlossiness": {
-          "diffuseFactor": [
-            1,
-            0.92156899999999997,
-            0.70980399999999999,
-            1
-          ],
-          "glossinessFactor": 0.047568284600000003,
-          "specularFactor": [
-            0.10000000000000001,
-            0.10000000000000001,
-            0.10000000000000001
-          ]
-        }
-      },
-      "name": "Creme"
+      "name": "Creme",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          0.92156899999999997,
+          0.70980399999999999,
+          1
+        ],
+        "metallicFactor": 0.10000000000000001,
+        "roughnessFactor": 0.047568284600000003
+      }
     }
   ],
   "meshes": [
